@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo/css.css">
+    <link rel="icon" href="../imagens/image.psd.png" /> 
+    <script src="../scripts/jscript.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">    
+    <title>Explore Brasil</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>Explore Brasil</h1>
+                <ul>
+                    <li><a class="nav-link" href="../index.html">Home</a></li>
+                    <li><a class="nav-link" href="../destinos/destino.html">Destinos</a></li>
+                    <li><a class="nav-link" href="../contato/contato.html">Contato</a></li>
+                    <li><a class="nav-link" href="../avaliacao/avaliacao.html">Avaliação</a></li>
+                </ul>
+        </nav>
+   </header>
+
+    <div class="container_cadastro">
+        <h1>Cadastro</h1>
+ 
+        <form id="cadastroForm">
+            <div class="form_grupo">
+                <div>Nome Completo:</div>
+                <input type="text" id="nome" name="nome" maxlength="17" size="20" required>
+            </div>
+
+            <div class="form_grupo">
+                <div>Email:</div>
+                <input type="email" id="email" name="email" maxlength="17" size="20" required>
+            </div>
+
+            <div class="form_grupo">
+                <div>Senha:</div>
+                <input type="password" id="senha" name="senha" maxlength="17" size="20" required>
+            </div>
+
+            <div class="form_grupo">
+                <div>Confirmar Senha:</div>
+                <input type="password" id="confirmarSenha" name="confirmarSenha" maxlength="17" size="20" required>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p id="mensagem"></p>
+    </div>
+    <footer class="contato">
+        <p>&copy; 2024 Explore Brasil by Luiz Otávio</p>
+        <p>Email: contato@explorebrasilviagens.com</p>
+        <p>Número de Contato: (55) 1234-5678</p>
+    </footer>
+</body>
+</html>

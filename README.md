@@ -3,7 +3,7 @@
 **Desenvolvedor:** Luiz Otávio  
 **Ano:** 2024  
 **Tecnologias:** HTML5, CSS3, JavaScript
-**Link para visualização do site:** [https://luizolvx.github.io/site-de-turismo/avaliacao/avaliacao.html](https://luizolvx.github.io/site-de-turismo/index.html)
+**[Link para visualização do site](https://luizolvx.github.io/site-de-turismo/index.html)**
 ---
 
 ## 1. Visão Geral do Projeto
